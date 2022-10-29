@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>沙盒</title>
+    <link rel="stylesheet" href="./sandbox.css" />
+  </head>
+  <body>
+    <div class="config-list">
+      <div class="list-item">
+        端口1：
+        <input type="text" value="9000" placeholder="端口1" id="config1port" class="item-port" />
+        用户ID：
+        <input type="text" placeholder="用户id" id="config1id" />
+        <button id="confirmButton1">确定</button>
+      </div>
+      <div class="list-item">
+        端口2：
+        <input type="text" value="9001" placeholder="端口2" id="config2port" class="item-port" />
+        用户ID：
+        <input type="text" placeholder="用户id" id="config2id" />
+        <button id="confirmButton2">确定</button>
+      </div>
+      <div class="list-item">
+        端口3：
+        <input type="text" value="9002" placeholder="端口3" id="config3port" class="item-port" />
+        用户ID：
+        <input type="text" placeholder="用户id" id="config3id" />
+        <button id="confirmButton3">确定</button>
+      </div>
+    </div>
+     
+
+    <script src="./api.js"></script>
+    <script src="./sandbox.js"></script>
+  </body>
+</html>
